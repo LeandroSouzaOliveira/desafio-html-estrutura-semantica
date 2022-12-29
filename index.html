@@ -17,13 +17,15 @@
                     <li><a href="#games">Jogos</a></li>
                     <li><a href="#sign-up">Inscreva-se</a></li>
                 </ul>
+            <img src="img/person.png" alt="Avatar">
         </nav>
     </header>
     <main>
-        <section>
+        <section id="news">
             <div>
                 <h1>Últimas Notícias</h1>
             </div>
+
             <div>
                 <h3>Título principal da notícia</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae ducimus aperiam.</p>
@@ -59,7 +61,97 @@
                     optio error! Vitae perspiciatis voluptatem sequi nostrum necessitatibus culpa fuga ...</p>
                 <p><a href="#">Ler mais...</a></p>
             </div>
+
+            <div>
+                <p><a href="#">Carregar mais</a></p>
+            </div>
+        </section>
+
+        <section id="games">
+            <div>
+                <h1>Jogos</h1>
+            </div>
+
+            <div>
+                <img src="img/image game.png" alt="Game - Horizon zero dawn">
+                <div>
+                    <h4>Horizon Fordidden West</h4>
+                    <p>De Sony Interactive Entertainment</p>
+                    <p>9.7</p>
+                </div>
+            </div>
+
+            <div>
+                <img src="img/image game.png" alt="Game - Horizon zero dawn">
+                <div>
+                    <h4>Horizon Fordidden West</h4>
+                    <p>De Sony Interactive Entertainment</p>
+                    <p>9.7</p>
+                </div>
+            </div>
+
+            <div>
+                <img src="img/image game.png" alt="Game - Horizon zero dawn">
+                <div>
+                    <h4>Horizon Fordidden West</h4>
+                    <p>De Sony Interactive Entertainment</p>
+                    <p>9.7</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="sign-up">
+            <div>
+                <h1>Faça sua inscrição</h1>
+            </div>
+            <form action="form.html">
+                <div>
+                    <input type="text" name="name" placeholder="Nome completo">
+                </div>
+
+                <div>
+                    <input type="email" name="email" placeholder="Email">
+                </div>
+
+                <div>
+                    <label for="ctrl-platform">Qual sua plataforma preferida?</label>
+                    <div id="ctrl-platform">
+                        <input type="radio" name="platform" id="dtrl-platform-1">
+                        <label for="dtrl-platform-1">PC</label><br>
+                        <input type="radio" name="platform" id="dtrl-platform-2">
+                        <label for="dtrl-platform-2">Xbox</label><br>
+                        <input type="radio" name="platform" id="dtrl-platform-3">
+                        <label for="dtrl-platform-3">Playstation</label>
+                    </div>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="ctrl-news" name="news">
+                    <label for="ctrl-news">Desejo receber novidades.</label>
+                </div>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </form>
         </section>
     </main>
+
+    <footer>
+        <div>
+            <div>
+                <p>@dsplaygames</p>
+                <p>/dsplaygames</p>
+            </div>
+
+            <div>
+                <p>DS Play Games Ltda. Todos direitos reservados</p>
+            </div>
+
+            <div>
+                <p>Política de privacidade</p>
+                <p>Termos de uso</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
